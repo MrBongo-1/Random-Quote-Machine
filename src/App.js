@@ -48,12 +48,13 @@ const quoteArr = [
 class Quotes extends React.Component {
   constructor(props) {
     super(props);
+    //index state is set to random number initially.
     this.state = {
       index: Math.floor((Math.random() * 10))
     };
     this.handleClick = this.handleClick.bind(this);
   }
-
+  //When we click on "New quote", we generate a random number which will serve as our index in the quoteArr array.
   handleClick() {
     let strict = this.state.index;
     function diffQuote() {
@@ -63,7 +64,7 @@ class Quotes extends React.Component {
       }
       return a;
     }
-    //diffQuote makes sure that we don't get the same quote twice in a row
+    //diffQuote makes sure that we don't get the same quote twice in a row.
     this.setState({
       index: diffQuote()
     });
