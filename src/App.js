@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 //Imported portraits of the authors.
-import einstein from './RQM-assests/einstein.jpg';
-import gandhi from './RQM-assests/gandhi.jpg';
-import bismarck from './RQM-assests/bismarck.jpg';
-import stalin from './RQM-assests/stalin.jpg';
-import lincoln from './RQM-assests/lincoln.jpg';
-import ali from './RQM-assests/ali.jpg';
-import mlk from './RQM-assests/mlk.jpg';
-import vinci from './RQM-assests/vinci.jpg';
-import newton from './RQM-assests/newton.jpg';
-import churchill from './RQM-assests/churchill.jpg';
+import einstein from './RQM-assets/einstein.jpg';
+import gandhi from './RQM-assets/gandhi.jpg';
+import bismarck from './RQM-assets/bismarck.jpg';
+import stalin from './RQM-assets/stalin.jpg';
+import lincoln from './RQM-assets/lincoln.jpg';
+import ali from './RQM-assets/ali.jpg';
+import mlk from './RQM-assets/mlk.jpg';
+import vinci from './RQM-assets/vinci.jpg';
+import newton from './RQM-assets/newton.jpg';
+import churchill from './RQM-assets/churchill.jpg';
+import twitter from './RQM-assets/twitter.png'
 
 const quoteArr = [
                   {
@@ -94,11 +95,11 @@ class Quotes extends React.Component {
   render() {
     return (
     <div>
-      <p id="text">{quoteArr[this.state.index].quote}</p>
-      <p id="author">{quoteArr[this.state.index].author}</p>
-      <img id="author-pic" src={quoteArr[this.state.index].portrait}/>
-      <button onClick={this.handleClick} id="new-quote">New quote</button>
-      <a href="https://www.twitter.com/intent/tweet" id="tweet-quote">Tweet</a>
+      <img key={Math.random()} id="author-pic" src={quoteArr[this.state.index].portrait}/>
+      <p key={Math.random()} id="text">{quoteArr[this.state.index].quote}</p>
+      <p key={Math.random()} id="author">{quoteArr[this.state.index].author}</p>
+      <button onClick={this.handleClick} id="new-quote">New Quote</button>
+      <a href="https://www.twitter.com/intent/tweet" id="tweet-quote"><img src={twitter}/></a>
     </div>
     );
   }
