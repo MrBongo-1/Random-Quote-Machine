@@ -15,18 +15,18 @@ div{
 
 #text {
   width: 50%;
-  height: 60px;
-  padding-top: 10%;
+  padding-top: 40px;
   margin-left: 20%;
   font-size: 20px;
   animation-name: fadein;
   animation-duration: 2s;
+
 }
 
 #author {
   width: 50%;
   margin-left: 20%;
-  margin-bottom: 160px;
+  margin-bottom: 270px;
   font-size: 20px;
   animation-name: fadein;
   animation-duration: 2s;
@@ -40,7 +40,6 @@ div{
 }
 
 #new-quote {
-  margin: auto;
   background-color: #001BFF;
   border: none;
   color: white;
