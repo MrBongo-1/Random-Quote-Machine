@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/Random-Quote-Machine/static/css/main.cc80568f.chunk.css",
-    "main.js": "/Random-Quote-Machine/static/js/main.850fd948.chunk.js",
-    "main.js.map": "/Random-Quote-Machine/static/js/main.850fd948.chunk.js.map",
+    "main.css": "/Random-Quote-Machine/static/css/main.1ff8dc84.chunk.css",
+    "main.js": "/Random-Quote-Machine/static/js/main.f7b83785.chunk.js",
+    "main.js.map": "/Random-Quote-Machine/static/js/main.f7b83785.chunk.js.map",
     "runtime-main.js": "/Random-Quote-Machine/static/js/runtime-main.ae688bef.js",
     "runtime-main.js.map": "/Random-Quote-Machine/static/js/runtime-main.ae688bef.js.map",
-    "static/js/2.640f7b8d.chunk.js": "/Random-Quote-Machine/static/js/2.640f7b8d.chunk.js",
-    "static/js/2.640f7b8d.chunk.js.map": "/Random-Quote-Machine/static/js/2.640f7b8d.chunk.js.map",
+    "static/js/2.7c8be495.chunk.js": "/Random-Quote-Machine/static/js/2.7c8be495.chunk.js",
+    "static/js/2.7c8be495.chunk.js.map": "/Random-Quote-Machine/static/js/2.7c8be495.chunk.js.map",
     "index.html": "/Random-Quote-Machine/index.html",
-    "precache-manifest.bd59796761732476b7c6e6db314e0ef7.js": "/Random-Quote-Machine/precache-manifest.bd59796761732476b7c6e6db314e0ef7.js",
+    "precache-manifest.631d1846211a8e432f1a5b7dda883bf4.js": "/Random-Quote-Machine/precache-manifest.631d1846211a8e432f1a5b7dda883bf4.js",
     "service-worker.js": "/Random-Quote-Machine/service-worker.js",
-    "static/css/main.cc80568f.chunk.css.map": "/Random-Quote-Machine/static/css/main.cc80568f.chunk.css.map",
-    "static/js/2.640f7b8d.chunk.js.LICENSE.txt": "/Random-Quote-Machine/static/js/2.640f7b8d.chunk.js.LICENSE.txt"
+    "static/css/main.1ff8dc84.chunk.css.map": "/Random-Quote-Machine/static/css/main.1ff8dc84.chunk.css.map",
+    "static/js/2.7c8be495.chunk.js.LICENSE.txt": "/Random-Quote-Machine/static/js/2.7c8be495.chunk.js.LICENSE.txt",
+    "static/media/ali.jpg": "/Random-Quote-Machine/static/media/ali.2a739bf9.jpg",
+    "static/media/bismarck.jpg": "/Random-Quote-Machine/static/media/bismarck.896083cb.jpg",
+    "static/media/churchill.jpg": "/Random-Quote-Machine/static/media/churchill.6e15978d.jpg",
+    "static/media/einstein.jpg": "/Random-Quote-Machine/static/media/einstein.b9025aef.jpg",
+    "static/media/gandhi.jpg": "/Random-Quote-Machine/static/media/gandhi.8c91549c.jpg",
+    "static/media/lincoln.jpg": "/Random-Quote-Machine/static/media/lincoln.17cdd6fe.jpg",
+    "static/media/mlk.jpg": "/Random-Quote-Machine/static/media/mlk.75f9ff7e.jpg",
+    "static/media/newton.jpg": "/Random-Quote-Machine/static/media/newton.3a87f6b1.jpg",
+    "static/media/stalin.jpg": "/Random-Quote-Machine/static/media/stalin.b9729d2d.jpg",
+    "static/media/vinci.jpg": "/Random-Quote-Machine/static/media/vinci.531fca6c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ae688bef.js",
-    "static/js/2.640f7b8d.chunk.js",
-    "static/css/main.cc80568f.chunk.css",
-    "static/js/main.850fd948.chunk.js"
+    "static/js/2.7c8be495.chunk.js",
+    "static/css/main.1ff8dc84.chunk.css",
+    "static/js/main.f7b83785.chunk.js"
   ]
 }
